@@ -1,4 +1,4 @@
-entrypoint = "README.md"
-language = "nodejs"
-run = ["npm", "start"]
-onBoot = "chmod u+x src/webretro.sh"
+run = "cowsay Configure me!"
+
+[nix]
+channel = "stable-22_11"
